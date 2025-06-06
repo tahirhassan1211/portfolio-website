@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ML & GenAI Developer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    .hover-card:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <header class="bg-gray-800 py-4">
+    <nav class="container mx-auto flex justify-between items-center px-4 text-green-300 text-lg font-medium">
+      <div class="text-xl font-bold text-green-400">ML & GenAI Portfolio</div>
+      <div class="flex space-x-6">
+        <a href="#about" class="hover:text-green-500">About Me</a>
+        <a href="#projects" class="hover:text-green-500">Projects</a>
+        <a href="#experience" class="hover:text-green-500">Experience</a>
+        <a href="#services" class="hover:text-green-500">Services</a>
+        <a href="#certificates" class="hover:text-green-500">Certificates</a>
+        <a href="#contact" class="hover:text-green-500">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container mx-auto px-4 py-8">
+    <section id="about" class="mb-12 text-center">
+      <h1 class="text-4xl font-bold text-green-400 mb-4">About Me</h1>
+      <p class="text-lg">I'm a passionate Machine Learning and Generative AI developer focused on building impactful solutions using the latest in AI technologies.</p>
+    </section>
+
+    <section id="projects" class="mb-12 text-center">
+      <h2 class="text-3xl font-bold text-green-400 mb-6">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+        <div class="bg-gray-800 p-6 rounded-lg hover-card flex justify-between items-center" data-aos="zoom-in">
+          <div>
+            <h3 class="text-xl font-semibold text-green-300">Rainfall Prediction</h3>
+            <p class="my-2" data-aos="fade-right">A machine learning model that predicts rainfall using meteorological data.</p>
+            <a href="#" class="text-blue-400 underline">Github</a>
+          </div>
+          <img src="https://img.icons8.com/fluency/48/rain.png" alt="Rain" class="w-12 h-12" />
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg hover-card flex justify-between items-center" data-aos="zoom-in" data-aos-delay="100">
+          <div>
+            <h3 class="text-xl font-semibold text-green-300">MediBot - RAG Chatbot</h3>
+            <p class="my-2" data-aos="fade-right">Retrieval-augmented generation chatbot for healthcare queries.</p>
+            <a href="#" class="text-blue-400 underline">Github</a>
+          </div>
+          <img src="https://img.icons8.com/fluency/48/robot-2.png" alt="Robot" class="w-12 h-12" />
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg hover-card flex justify-between items-center" data-aos="zoom-in" data-aos-delay="200">
+          <div>
+            <h3 class="text-xl font-semibold text-green-300">Document Analyzer Chatbot</h3>
+            <p class="my-2" data-aos="fade-right">Assistant and answers questions based on LLMs.</p>
+            <a href="#" class="text-blue-400 underline">Github</a>
+          </div>
+          <img src="https://img.icons8.com/fluency/48/document.png" alt="Document" class="w-12 h-12" />
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg hover-card flex justify-between items-center" data-aos="zoom-in" data-aos-delay="300">
+          <div>
+            <h3 class="text-xl font-semibold text-green-300">Student Assistant Chatbot</h3>
+            <p class="my-2" data-aos="fade-right">AI powered assistant that helps students.</p>
+            <a href="#" class="text-blue-400 underline">Github</a>
+          </div>
+          <img src="https://img.icons8.com/fluency/48/student-center.png" alt="Student" class="w-12 h-12" />
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="mb-12 text-center">
+      <h2 class="text-3xl font-bold text-green-400 mb-6">Experience</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+        <div class="bg-gray-800 p-6 rounded-lg hover-card">
+          <h3 class="text-xl font-semibold text-green-300">AI Research Intern</h3>
+          <p class="text-sm">Jan 2024 - May 2024</p>
+          <p class="my-2">Worked on NLP model for e-commerce client, focusing on customer-related queries.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg hover-card">
+          <h3 class="text-xl font-semibold text-green-300">Freelance ML Developer</h3>
+          <p class="text-sm">Jul 2023 - Dec 2023</p>
+          <p class="my-2">Delivered end-to-end ML projects including model training & deployment.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="mb-12 text-center">
+      <h2 class="text-3xl font-bold text-green-400 mb-6">Services</h2>
+      <div class="flex justify-center">
+        <ul class="list-disc pl-5 space-y-2 text-left">
+          <li>Custom ML Solutions</li>
+          <li>Generative AI Integration</li>
+          <li>Chatbot Development</li>
+          <li>Model Deployment & Monitoring</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="certificates" class="mb-12 text-center">
+      <h2 class="text-3xl font-bold text-green-400 mb-6">Certificates</h2>
+      <div class="flex justify-center">
+        <ul class="list-disc pl-5 space-y-2 text-left">
+          <li>Deep Learning Specialization - Coursera</li>
+          <li>LangChain for LLM Apps - DeepLearning AI</li>
+          <li>AI Chatbots without Code - Udemy</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="mb-12 text-center">
+      <h2 class="text-3xl font-bold text-green-400 mb-6">Contact</h2>
+      <p>Feel free to reach out at <a href="mailto:youremail@example.com" class="text-blue-400 underline">youremail@example.com</a></p>
+    </section>
+  </div>
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
